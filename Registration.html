@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body style="color:yellow;">
+        <form>
+            <table align="center" border="1" width="600" style="background-color:cadetblue;">
+                
+                    <th colspan="2" style="height:50px;background-color:yellow;">
+                    <h1>
+                        <marquee>Registration Form</marquee>
+                    </h1>
+                </th>
+                <tr>
+                    <td>First_Name</td>
+                    <td>
+                        <input type="text" name="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Middel_Name</td>
+                    <td>
+                        <input type="text" name="mname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last_Name</td>
+                    <td>
+                        <input type="text" name="lname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="Singing">Singing
+                        <input type="checkbox" name="hobby" value="Dancing">Dancing
+                        <input type="checkbox" name="hobby" value="Reading">Reading
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <textarea name="address" rows="5" cols="50"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>
+                        <select name="city">
+                            <option value="Surat">Surat</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Rajkot">Rajkot</option>
+                            <option value="Vapi">Vapi</option>
+                            <option value="Goa">Goa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="submit" value="submit">
+                        <input type="reset" name="reset" value="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
